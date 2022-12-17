@@ -1,0 +1,1 @@
+-- None of these, `\d things` is a meta command. This is not DML, DDL, or DCL.
