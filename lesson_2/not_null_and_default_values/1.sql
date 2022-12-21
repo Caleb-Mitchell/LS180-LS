@@ -1,0 +1,1 @@
+-- the expression will return NULL
