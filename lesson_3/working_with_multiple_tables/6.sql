@@ -1,0 +1,1 @@
+SELECT customers.id, customers.email, COUNT(DISTINCT tickets.event_id) FROM customers INNER JOIN tickets ON customers.id = tickets.customer_id GROUP BY customers.id HAVING COUNT(DISTINCT tickets.event_id) = 3;
